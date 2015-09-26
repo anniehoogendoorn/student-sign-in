@@ -3,4 +3,8 @@ studentSignIn.controller('PresenceCtrl', function PresenceCtrl($scope, SignInFac
   $scope.addStudentPresence = function(student) {
     student.presence = true;
   };
+  $scope.removeStudentPresence = function(student) {
+    student.presence = false;
+  };
+
 });
