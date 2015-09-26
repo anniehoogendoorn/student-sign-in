@@ -1,11 +1,10 @@
-<a  ui-sref="SignIn">Sign in</a><span> | </span><a ng-click="hidden = true" ui-sref="Presence">Who's here</a>
+<a  ui-sref="signIn">Sign in</a><span> | </span><a ng-click="hidden = true" ui-sref="presence">Who's here</a>
 <div hide="hidden">
 <h1>Please sign in</h1>
-<!-- <ul> -->
   <p ng-repeat="item in students">
   {{ item.name }}
     <button ng-click="addStudentPresence(item)" type="submit" class="btn btn-default btn-small">Sign in</button>
-    <button ng-click="removeStudentPresence(item)" ng-show=ng-click="hidden = true" ui-sref="signIn" type="submit" class="btn btn-warning btn-small">Sign out</button>
+    <button ng-click="removeStudentPresence(item)" ng-click="hidden = true" ui-sref="signIn" type="submit" class="btn btn-warning btn-small">Sign out</button>
 </p>
-<!-- </ul> -->
+</div>
 <div ui-view></div>
