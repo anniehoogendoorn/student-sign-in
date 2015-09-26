@@ -1,6 +1,9 @@
+<div ng-hide="hidden">
 <h1>Welcome</h1>
 <form class="form-inline" role="form">
-  <button type="submit" class="btn btn-success btn-small">Sign in</button>
+  <button ng-click="hidden = true" ui-sref="signIn" type="submit" class="btn btn-success btn-small">Sign in</button>
   <!-- <button type="submit" class="btn btn-succes btn-small">Sign in</button> -->
 
 </form>
+
+<div ui-view></div>
