@@ -6,6 +6,8 @@ studentSignIn.controller('PresenceCtrl', function PresenceCtrl($scope, SignInFac
   };
   $scope.removeStudentPresence = function(student) {
     student.presence = false;
+    console.log(student.presence);
+
   };
 
 });

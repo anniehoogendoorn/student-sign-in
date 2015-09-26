@@ -9,13 +9,13 @@ studentSignIn.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider.state('signIn', {
     url: "/sign-in",
     templateUrl: "partials/sign-in.html",
-    controller: 'SignInCtrl'
+    controller: 'PresenceCtrl'
   });
 
   $stateProvider.state('presence', {
     url: "/presence",
     templateUrl: "partials/presence.html",
-    controller: 'PresenceCtrl'
+    controller: 'SignInCtrl'
   });
 
 });
