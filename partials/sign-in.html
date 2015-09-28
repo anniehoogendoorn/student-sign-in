@@ -3,7 +3,7 @@
 <h1>Please sign in</h1>
   <p ng-repeat="item in students">
   {{ item.name }}
-<br/>
+<!-- <br/> -->
 
     <button ng-click="addStudentPresence(item)" ng-hide="item.presence" type="submit" class="btn btn-default btn-small">Sign in</button>
     <button ng-click="removeStudentPresence(item)" ng-show="item.presence" type="submit" class="btn btn-warning btn-small">Sign out</button>
