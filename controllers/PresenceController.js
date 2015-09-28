@@ -2,12 +2,9 @@ studentSignIn.controller('PresenceCtrl', function PresenceCtrl($scope, SignInFac
   $scope.students = SignInFactory.students;
   $scope.addStudentPresence = function(student) {
     student.presence = true;
-    console.log(student.presence);
   };
   $scope.removeStudentPresence = function(student) {
     student.presence = false;
-    console.log(student.presence);
-
   };
 
 });
