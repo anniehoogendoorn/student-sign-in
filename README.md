@@ -10,14 +10,12 @@ _An app that allows students to sign in to class, and teachers to see which stud
 
 ## Setup
 
-1. Clone repository:
+_1. Clone repository:
 `$ git clone https://github.com/anniehoogendoorn/studentSignInAngular.git`
 `$ cd attendance`
 2. Run a simple server like Python from the top level of the project directory:
 `$ python -m SimpleHTTPServer`
-3. Navigate to 'localhost:8000' in a browser of your choice.
-
-_Clone and open index.html in your browser._  
+3. Navigate to 'localhost:8000' in your browser._
 
 ## Technologies Used
 
