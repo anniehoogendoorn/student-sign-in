@@ -1,12 +1,12 @@
 <a  ng-click="hidden = true" ui-sref="signIn">Sign in</a><span> | </span><a  ui-sref="presence">Who's here</a>
 <div hide="hidden">
 
-<h1>Here</h1>
-<p ng-repeat="item in studentsNotHere = (students | filter:{presence: true })"> {{ item.name }}
+<h1 ng-show="studentsHere.length">Here</h1>
+<p ng-repeat="item in studentsHere = (students | filter:{presence: true })"> {{ item.name }}
 </p>
 
-
-<h1>Not here</h1>
+<!-- <div ng-show -->
+<h1 ng-show="studentsNotHere.length">Not here</h1>
 <p ng-repeat="item in studentsNotHere = (students | filter:{presence: false })"> {{ item.name }}
 </p>
 

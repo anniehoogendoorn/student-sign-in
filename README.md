@@ -1,14 +1,21 @@
-# _Student Roster with Permission Slips_
+# _Student Sign In_
 
-##### Epicodus exercise 9/22/2015_
+##### Epicodus exercise 9/25/2015_
 
-#### By Jenna Navratil and Annie Hoogendoorn
+#### By Annie Hoogendoorn
 
 ## Description
 
-_An app that builds on the previous Student Roster projects by adding factories and permission slips._
+_An app that allows students to sign in to class, and teachers to see which students are present_
 
 ## Setup
+
+1. Clone repository:
+`$ git clone https://github.com/anniehoogendoorn/studentSignInAngular.git`
+`$ cd attendance`
+2. Run a simple server like Python from the top level of the project directory:
+`$ python -m SimpleHTTPServer`
+3. Navigate to 'localhost:8000' in a browser of your choice.
 
 _Clone and open index.html in your browser._  
 
@@ -20,7 +27,7 @@ Angular, Javascript, HTML, CSS and Bootstrap._
 
 ### Legal
 
-Copyright (c) 2015 Jenna Navratil & Annie Hoogendoorn
+Copyright (c) 2015 Annie Hoogendoorn
 
 This software is licensed under the MIT license.
 

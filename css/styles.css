@@ -1,0 +1,11 @@
+h1 {
+  font-size: 3.2em;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.container .jumbotron {
+  margin-top: 40px;
+}
