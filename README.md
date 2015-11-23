@@ -6,16 +6,16 @@ A web app built with AngularJS's AngularUI Router and Bootstrap. It allows stude
 
 ## Setup
 
-1. Clone repository:
+* Clone repository:
 ```console
 $ git clone https://github.com/anniehoogendoorn/studentSignInAngular.git
 $ cd attendance
 ```
-2. Run a simple server like Python from the top level of the project directory:
+* Run a simple server like Python from the top level of the project directory:
 ```console
 $ python -m SimpleHTTPServer
 ```
-3. Navigate to `localhost:8000` in your browser.
+* Navigate to `localhost:8000` in your browser.
 
 ## Technologies Used
 
