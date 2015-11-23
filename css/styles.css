@@ -3,9 +3,9 @@ h1 {
 }
 
 button {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.container .jumbotron {
-  margin-top: 40px;
+.jumbotron {
+    margin-top: 40px;
 }
