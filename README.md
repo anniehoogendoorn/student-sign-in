@@ -1,18 +1,16 @@
-# _Student Sign In_
+# Student Sign In
 
-##### Epicodus exercise 9/25/2015
+By Annie Hoogendoorn, 9/25/2015
 
-#### By Annie Hoogendoorn
-
-## Description
-
-_An app that allows students to sign in to class, and teachers to see which students are present_
+A web app built with AngularJS's AngularUI Router and Bootstrap. It allows students to sign in to class, and teachers to see which students are present.
 
 ## Setup
 
 1. Clone repository:
-`$ git clone https://github.com/anniehoogendoorn/studentSignInAngular.git`
-`$ cd attendance`
+```console
+$ git clone https://github.com/anniehoogendoorn/studentSignInAngular.git`
+$ cd attendance
+```
 2. Run a simple server like Python from the top level of the project directory:
 `$ python -m SimpleHTTPServer`
 3. Navigate to 'localhost:8000' in your browser.
