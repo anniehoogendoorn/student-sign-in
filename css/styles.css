@@ -9,3 +9,38 @@ button {
 .jumbotron {
     margin-top: 40px;
 }
+
+.logo h2, .menu a{
+  color: #333;
+  text-decoration: none !important;
+}
+
+.logo h2 {
+  float:left;
+}
+
+.menu {
+  float: right;
+  padding-top: 25px;
+}
+
+.well-lg {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+#welcome h1 {
+  font-size: 5.5em;
+  margin-bottom: 0px;
+}
+
+#welcome p {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.group::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}

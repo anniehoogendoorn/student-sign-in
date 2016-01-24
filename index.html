@@ -9,13 +9,48 @@
   <script src="controllers/PresenceController.js"></script>
   <script src="controllers/SignInController.js"></script>
   <script src="services/SignInFactory.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="container">
-    <div ui-view></div>
-  </div>
+
+    <!-- Header view -->
+        <div id="header">
+          <div ui-view="header"></div>
+        </div> <!-- end id -->
+
+    <!-- Welcome view -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="welcome">
+          <div ui-view="welcome"></div>
+        </div> <!-- end id -->
+      </div> <!-- end col -->
+    </div> <!-- end row -->
+
+    <!-- Sign-in view -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="sign-in">
+          <div ui-view="sign-in"></div>
+        </div> <!-- end id -->
+      </div> <!-- end col -->
+    </div> <!-- end row -->
+
+    <!-- Presence view -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="presence">
+          <div ui-view="presence"></div>
+        </div> <!-- end id -->
+      </div> <!-- end col -->
+    </div> <!-- end row -->
+
+
+
+  </div><!-- end container -->
 </body>
 </html>
