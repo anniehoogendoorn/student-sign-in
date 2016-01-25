@@ -1,11 +1,13 @@
 studentSignIn.factory('SignInFactory', function SignInFactory() {
   var factory = {};
   factory.students = [
-  { name: "Sam Schmidt" , presence: false},
-  { name: "Jessica Martin", presence: false },
-  { name: "Sandy Smith", presence: false },
-  { name: "Ryan Samuels", presence: false },
-  { name: "Brentwood Davis", presence: false }
+  { name: "Alex Brown" , presence: false},
+  { name: "Alex Costa", presence: true },
+  { name: "Ashlin Aronin", presence: true },
+  { name: "Ben Caselino", presence: false },
+  { name: "Ben Spenard", presence: true },
+  { name: "Brian Borealis", presence: false },
+
   ];
 
   return factory;
